@@ -5,9 +5,9 @@ MonadStack is a [Qtile](https://qtile.org) layout based on the built-in
 layout, with some modifications to automatically maximize windows in the
 secondary pane. This creates an effect vaguely similar to i3's "stacked" layout.
 
-The (not so great) animation below shows it better.
+The (not so great) animation below shows it better:
 
-![Screen Animation](assets/screenshot.gif)
+https://github.com/user-attachments/assets/1f4bc58d-cdfd-43de-bd27-3d979a285db3
 
 This layout relies on MondaTall's `min_secondary_size` and `maximize()` to
 do its task. You can change the height of "minimized" windows by instantiating
