@@ -41,6 +41,9 @@ class MonadStack(layout.MonadTall):
     def toggle_auto_maximize(self):
         "Toggle auto maximize secondary window on focus."
         self.auto_maximize = not self.auto_maximize
+        self.normalize(True)
+        if self.focused != 0:
+            self.maximize_focused_secondary()
 
     def focus(self, client):
         super().focus(client)
