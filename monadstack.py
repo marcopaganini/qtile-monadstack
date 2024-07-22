@@ -29,6 +29,7 @@ class MonadStack(layout.MonadTall):
 
     defaults = [
             ("auto_maximize", True, "Maximize secondary windows on focus."),
+            ("min_secondary_size", 40, "Minimum secondary size."),
             ]
 
     def __init__(self, **config):

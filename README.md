@@ -47,7 +47,7 @@ Then locate your `layouts` line and add something like:
 
 ```python
     layouts = [
-            MonadStack(min_secondary_size=40),
+            MonadStack(),
     ]
 ```
 
