@@ -1,6 +1,6 @@
 # qtile-monadstack
 
-MonadStack is a [Qtile][https://qtile.org] layout based on the built-in
+MonadStack is a [Qtile](https://qtile.org) layout based on the built-in
 [MonadTall](https://docs.qtile.org/en/stable/manual/ref/layouts.html#monadtall)
 layout, with some modifications to automatically maximize windows in the
 secondary pane. This creates an effect vaguely similar to i3's "stacked" layout.
@@ -30,7 +30,8 @@ cp qtile-monadstack/monadstack.py ~/.config/qtile
 Another option is to download the layout module directly with curl:
 
 ```bash
-curl https://raw.githubusercontent.com/marcopaganini/qtile-monadstack/master/monadstack.py \
+curl \
+  https://raw.githubusercontent.com/marcopaganini/qtile-monadstack/master/monadstack.py \
   > ~/.config/qtile/monadstack.py
 ```
 
