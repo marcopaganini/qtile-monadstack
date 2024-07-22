@@ -114,6 +114,7 @@ class MonadStackRight(MonadStack):
     "MonadStackRight MonadStack, with the main window on the right."
     defaults = [
             ("align", 1, "Right align main window"),
+            ("min_secondary_size", 40, "Minimum secondary size."),
             ]
 
     def __init__(self, **config):
