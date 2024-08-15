@@ -67,6 +67,11 @@ class MonadStack(layout.MonadTall):
     def maximize_focused_secondary(self):
         "Maximize the 'non-maximized' focused secondary pane"
 
+        # Return immediately if no self.group.screen
+        # (this may happen when moving windows across screens)
+        if self.group.screen is None:
+            return
+
         # If auto_maximize is off, return immediately.
         if not self.auto_maximize:
             return
